@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find the Cats!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Find the Cats!</h1>
+  <div class="button-bar">
+    <button onclick="playSound(); resetCats()">Reset</button>
+    <button onclick="playSound(); swapBackground()">Change Background</button>
+  </div>
+  <div id="game"></div>
+  <div id="found">
+    <h2>Found Cats</h2>
+  </div>
+  <audio id="meow-sound" src="meow.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

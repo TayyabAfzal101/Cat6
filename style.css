@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: tan;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.button-bar {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a5acd;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #483d8b;
+}
+
+#game {
+  position: relative;
+  width: 1024px;
+  height: 576px;
+  margin: 0 auto;
+  background: url('background.png') no-repeat center center;
+  background-size: cover;
+  border: 2px solid #444;
+  margin-top: 20px;
+}
+
+.cat {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#found {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(255,255,255,0.9);
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+#found h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.found-cat {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
